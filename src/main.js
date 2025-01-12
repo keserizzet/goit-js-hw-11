@@ -27,7 +27,16 @@ form.addEventListener('submit', async (e) => {
   loader.classList.remove('hidden');
   gallery.innerHTML = '';
 
-
+  try {
+    const response = await axios.get(BASE_URL, {
+      params: {
+        key: API_KEY,
+        q: query,
+        image_type: 'photo',
+        orientation: 'horizontal',
+        safesearch: true,
+      },
+    });
 
     const images = response.data.hits;
 

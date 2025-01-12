@@ -28,18 +28,6 @@
     <div id="app"></div>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/simplelightbox/2.14.3/simple-lightbox.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
-    <script type="module">
-      import axios from 'https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js';
-    
-      // API örneği
-      axios.get('https://jsonplaceholder.typicode.com/posts')
-        .then(response => {
-          console.log(response.data); // API'den gelen veriyi yazdırma
-        })
-        .catch(error => {
-          console.error('Error:', error);
-        });
-    </script>
     <script type="module" src="./main.js"></script>
   </body>
 </html>
