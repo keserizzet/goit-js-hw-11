@@ -1,5 +1,5 @@
 import './css/styles.css';
-import axios from 'axios';
+import axios from './node_modules/axios/dist/axios.mjs';
 import iziToast from 'izitoast';
 import 'izitoast/dist/css/iziToast.min.css';
 import SimpleLightbox from "simplelightbox";
