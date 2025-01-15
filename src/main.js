@@ -1,7 +1,7 @@
 import './css/styles.css';
 import axios from 'https://cdn.jsdelivr.net/npm/axios@1.3.5/+esm';
-import iziToast from 'izitoast';
-import 'izitoast/dist/css/iziToast.min.css';
+import iziToast from 'https://cdn.jsdelivr.net/npm/izitoast@1.4.0/dist/js/iziToast.min.js';
+import 'https://cdn.jsdelivr.net/npm/izitoast@1.4.0/dist/css/iziToast.min.css';
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 
