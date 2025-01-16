@@ -50,7 +50,7 @@ form.addEventListener('submit', async (e) => {
     const markup = images
       .map(
         (img) => `
-        <a href="${img.largeImageURL}" class="gallery-item">
+       <a href="${img.largeImageURL}" class="gallery-item">
           <img src="${img.webformatURL}" alt="${img.tags}" />
         </a>
         <div class="info">
