@@ -1,6 +1,9 @@
 import './css/styles.css';
-import SimpleLightbox from "simplelightbox";
-import "simplelightbox/dist/simple-lightbox.min.css";
+// import axios from 'axios';
+// import iziToast from 'izitoast';
+// import 'izitoast/dist/css/iziToast.min.css';
+// import SimpleLightbox from "simplelightbox";
+// import "simplelightbox/dist/simple-lightbox.min.css";
 
 const API_KEY = '48180440-b38c1b4d4768984d9404c0701';
 const BASE_URL = 'https://pixabay.com/api/';
@@ -48,7 +51,7 @@ form.addEventListener('submit', async (e) => {
     const markup = images
       .map(
         (img) => `
-       <a href="${img.largeImageURL}" class="gallery-item">
+        <a href="${img.largeImageURL}" class="gallery-item">
           <img src="${img.webformatURL}" alt="${img.tags}" />
         </a>
         <div class="info">
