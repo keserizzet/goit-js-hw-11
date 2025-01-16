@@ -53,14 +53,15 @@ form.addEventListener('submit', async (e) => {
         (img) => `
         <a href="${img.largeImageURL}" class="gallery-item">
           <img src="${img.webformatURL}" alt="${img.tags}" />
-        </a>
-        <div class="info">
+          <div class="info">
           <p><strong>Tags:</strong> ${img.tags}</p>
           <p><strong>Likes:</strong> ${img.likes}</p>
           <p><strong>Views:</strong> ${img.views}</p>
           <p><strong>Comments:</strong> ${img.comments}</p>
           <p><strong>Downloads:</strong> ${img.downloads}</p>
-        </div>`
+        </div>
+        </a>`
+        
       )
       .join('');
 
